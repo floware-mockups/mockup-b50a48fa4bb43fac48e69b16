@@ -1,0 +1,399 @@
+{
+  "title": "Registro della formazione obbligatoria",
+  "description": "Dashboard navigabile per gestire corsi, partecipanti, completamenti e scadenze dei rinnovi formativi.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Panoramica",
+      "description": "Stato della formazione obbligatoria e completamenti per ufficio.",
+      "metrics": [
+        {
+          "label": "Corsi attivi",
+          "value": "8"
+        },
+        {
+          "label": "Partecipanti iscritti",
+          "value": "64"
+        },
+        {
+          "label": "Completamento complessivo",
+          "value": "82%"
+        },
+        {
+          "label": "Rinnovi entro 30 giorni",
+          "value": "7"
+        }
+      ],
+      "columns": [
+        "Ufficio",
+        "Iscritti",
+        "Completati",
+        "Da completare",
+        "Completamento"
+      ],
+      "rows": [
+        [
+          "Ufficio Lumo",
+          "16",
+          "14",
+          "2",
+          "88%"
+        ],
+        [
+          "Ufficio Vela",
+          "14",
+          "12",
+          "2",
+          "86%"
+        ],
+        [
+          "Ufficio Nubi",
+          "12",
+          "9",
+          "3",
+          "75%"
+        ],
+        [
+          "Ufficio Rugiada",
+          "11",
+          "9",
+          "2",
+          "82%"
+        ],
+        [
+          "Ufficio Quarzo",
+          "11",
+          "8",
+          "3",
+          "73%"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "corsi",
+      "title": "Corsi",
+      "description": "Elenco filtrabile dei corsi obbligatori e delle relative scadenze.",
+      "metrics": [
+        {
+          "label": "Corsi attivi",
+          "value": "8"
+        },
+        {
+          "label": "In scadenza",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Titolo corso",
+        "Categoria",
+        "Ufficio",
+        "Durata",
+        "Stato",
+        "Prossima scadenza"
+      ],
+      "rows": [
+        [
+          "Fondamenti di sicurezza",
+          "Sicurezza",
+          "Ufficio Lumo",
+          "4 ore",
+          "Attivo",
+          "30/09/2026"
+        ],
+        [
+          "Aggiornamento sicurezza",
+          "Sicurezza",
+          "Ufficio Vela",
+          "2 ore",
+          "Attivo",
+          "15/10/2026"
+        ],
+        [
+          "Gestione riservata dei dati",
+          "Privacy",
+          "Ufficio Nubi",
+          "3 ore",
+          "Attivo",
+          "20/11/2026"
+        ],
+        [
+          "Principi di riservatezza",
+          "Privacy",
+          "Ufficio Rugiada",
+          "2 ore",
+          "Attivo",
+          "12/12/2026"
+        ],
+        [
+          "Prevenzione dei conflitti",
+          "Anticorruzione",
+          "Ufficio Quarzo",
+          "3 ore",
+          "Attivo",
+          "18/08/2026"
+        ],
+        [
+          "Etica nelle procedure",
+          "Anticorruzione",
+          "Ufficio Lumo",
+          "2 ore",
+          "Attivo",
+          "22/10/2026"
+        ],
+        [
+          "Sicurezza in attività esterne",
+          "Sicurezza",
+          "Ufficio Nubi",
+          "3 ore",
+          "Attivo",
+          "05/01/2027"
+        ],
+        [
+          "Protezione delle informazioni",
+          "Privacy",
+          "Ufficio Vela",
+          "2 ore",
+          "Pianificato",
+          "14/02/2027"
+        ]
+      ],
+      "form": [
+        "Titolo corso",
+        "Categoria",
+        "Ufficio",
+        "Durata",
+        "Stato",
+        "Prossima scadenza"
+      ]
+    },
+    {
+      "id": "partecipanti",
+      "title": "Partecipanti",
+      "description": "Registro filtrabile dei partecipanti inventati, con stato di completamento e scadenza del rinnovo.",
+      "metrics": [
+        {
+          "label": "Partecipanti registrati",
+          "value": "12"
+        },
+        {
+          "label": "Completamenti registrati",
+          "value": "9"
+        },
+        {
+          "label": "Rinnovi entro 30 giorni",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Ufficio",
+        "Corso",
+        "Stato",
+        "Completato il",
+        "Rinnovo entro"
+      ],
+      "rows": [
+        [
+          "Lumo Ardesia",
+          "Ufficio Lumo",
+          "Fondamenti di sicurezza",
+          "Completato",
+          "12/01/2026",
+          "12/01/2027"
+        ],
+        [
+          "Vela Brinata",
+          "Ufficio Lumo",
+          "Gestione riservata dei dati",
+          "Completato",
+          "22/02/2026",
+          "22/02/2027"
+        ],
+        [
+          "Nubi Selce",
+          "Ufficio Vela",
+          "Aggiornamento sicurezza",
+          "Da completare",
+          "—",
+          "15/09/2026"
+        ],
+        [
+          "Rugiada Cobalto",
+          "Ufficio Vela",
+          "Protezione delle informazioni",
+          "Completato",
+          "08/03/2026",
+          "08/03/2027"
+        ],
+        [
+          "Quarzo Mirto",
+          "Ufficio Nubi",
+          "Sicurezza in attività esterne",
+          "Completato",
+          "03/04/2026",
+          "03/04/2027"
+        ],
+        [
+          "Limo Perla",
+          "Ufficio Nubi",
+          "Gestione riservata dei dati",
+          "Da completare",
+          "—",
+          "20/09/2026"
+        ],
+        [
+          "Aster Bruma",
+          "Ufficio Rugiada",
+          "Principi di riservatezza",
+          "Completato",
+          "11/05/2026",
+          "11/05/2027"
+        ],
+        [
+          "Vetra Salvia",
+          "Ufficio Rugiada",
+          "Prevenzione dei conflitti",
+          "Completato",
+          "17/06/2026",
+          "17/06/2027"
+        ],
+        [
+          "Orma Lunare",
+          "Ufficio Quarzo",
+          "Etica nelle procedure",
+          "Da completare",
+          "—",
+          "18/09/2026"
+        ],
+        [
+          "Filo Duna",
+          "Ufficio Quarzo",
+          "Fondamenti di sicurezza",
+          "Completato",
+          "29/01/2026",
+          "29/01/2027"
+        ],
+        [
+          "Bora Lilla",
+          "Ufficio Lumo",
+          "Prevenzione dei conflitti",
+          "Completato",
+          "14/02/2026",
+          "14/02/2027"
+        ],
+        [
+          "Croma Farnia",
+          "Ufficio Vela",
+          "Etica nelle procedure",
+          "Completato",
+          "19/03/2026",
+          "19/03/2027"
+        ]
+      ],
+      "form": [
+        "Partecipante",
+        "Ufficio",
+        "Corso",
+        "Stato",
+        "Completato il",
+        "Rinnovo entro"
+      ]
+    },
+    {
+      "id": "scadenze",
+      "title": "Scadenze rinnovi",
+      "description": "Rinnovi formativi in arrivo, ordinati per data per agevolare la pianificazione.",
+      "metrics": [
+        {
+          "label": "Entro 30 giorni",
+          "value": "7"
+        },
+        {
+          "label": "Entro 90 giorni",
+          "value": "12"
+        },
+        {
+          "label": "Scaduti",
+          "value": "0"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Ufficio",
+        "Corso",
+        "Stato",
+        "Completato il",
+        "Rinnovo entro"
+      ],
+      "rows": [
+        [
+          "Nubi Selce",
+          "Ufficio Vela",
+          "Aggiornamento sicurezza",
+          "Da completare",
+          "—",
+          "15/09/2026"
+        ],
+        [
+          "Limo Perla",
+          "Ufficio Nubi",
+          "Gestione riservata dei dati",
+          "Da completare",
+          "—",
+          "20/09/2026"
+        ],
+        [
+          "Orma Lunare",
+          "Ufficio Quarzo",
+          "Etica nelle procedure",
+          "Da completare",
+          "—",
+          "18/09/2026"
+        ],
+        [
+          "Lumo Ardesia",
+          "Ufficio Lumo",
+          "Fondamenti di sicurezza",
+          "Completato",
+          "12/01/2026",
+          "12/01/2027"
+        ],
+        [
+          "Vela Brinata",
+          "Ufficio Lumo",
+          "Gestione riservata dei dati",
+          "Completato",
+          "22/02/2026",
+          "22/02/2027"
+        ],
+        [
+          "Rugiada Cobalto",
+          "Ufficio Vela",
+          "Protezione delle informazioni",
+          "Completato",
+          "08/03/2026",
+          "08/03/2027"
+        ],
+        [
+          "Quarzo Mirto",
+          "Ufficio Nubi",
+          "Sicurezza in attività esterne",
+          "Completato",
+          "03/04/2026",
+          "03/04/2027"
+        ],
+        [
+          "Aster Bruma",
+          "Ufficio Rugiada",
+          "Principi di riservatezza",
+          "Completato",
+          "11/05/2026",
+          "11/05/2027"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
